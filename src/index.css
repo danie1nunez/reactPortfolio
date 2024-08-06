@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(181, 181, 181);
 }
 
 .card{
     width: 25vw;
+}
+
+.logo {
+    width: 15vw;
 }
