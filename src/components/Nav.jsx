@@ -1,18 +1,17 @@
 import { Link } from 'react-router-dom'
 import '../index.css'
 
+
 export default function Nav() {
     return (
-        <nav className="p-4 font-mono">
+        <nav className="p-4 font-mono flex justify-between">
             <div className="container mx-auto flex justify-between items-center">
-                <div className="text-stone-800 text-lg font-bold">
-                    MyLogo
-                </div>
+                <img className='logo' src='./src/assets/logo.png' alt='logo'/>
                 <div className="md:flex space-x-10">
-                   <Link to ="/" className="text-stone-800 hover:text-orange-400 ">About Me</Link>
-                   <Link to = "/portfolio" className="text-stone-800 hover:text-orange-400">Portfolio</Link>
-                   <Link to = "/contact" className="text-stone-800 hover:text-orange-400">Contact</Link>
-                   <Link to = "/resume" className="text-stone-800 hover:text-orange-400">Resume</Link>
+                   <Link to ="/" className="text-stone-800 hover:text-orange-500 ">About Me</Link>
+                   <Link to = "/portfolio" className="text-stone-800 hover:text-orange-500">Portfolio</Link>
+                   <Link to = "/contact" className="text-stone-800 hover:text-orange-500">Contact</Link>
+                   <Link to = "/resume" className="text-stone-800 hover:text-orange-500">Resume</Link>
                 </div>
                 <div className="md:hidden">
                     <button className="text-stone-800 focus:outline-none">
