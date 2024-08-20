@@ -1,3 +1,12 @@
+import logo from '../assets/logo.png'
+import css from '../assets/css.svg'
+import js from "../assets/javascript.svg"
+import react from "../assets/react.svg"
+import nodejs from"../assets/nodejs.svg" 
+import git from "../assets/git.svg"
+import mongo from "../assets/mongodb.svg" 
+import psql from "../assets/postgresql.svg"
+
 export default function AboutMe() {
     return (
         <div className="flex flex-row">
@@ -15,14 +24,14 @@ export default function AboutMe() {
                         your online presence to new heights.
                     </p>
                     <div className="size-20 inline-flex flex-row mx-4">
-                        <img src="./src/assets/html.svg" alt="html" />
-                        <img src="./src/assets/css.svg" alt="css" />
-                        <img src="./src/assets/javascript.svg" alt="javascript" />
-                        <img src="./src/assets/react.svg" alt="react" />
-                        <img src="./src/assets/nodejs.svg" alt="nodejs" />
-                        <img src="./src/assets/git.svg" alt="git" />
-                        <img src="./src/assets/mongodb.svg" alt="mongodb" />
-                        <img src="./src/assets/postgresql.svg" alt="postgresql" />
+                        <img src={logo} alt="html" />
+                        <img src={css} alt="css" />
+                        <img src={js} alt="javascript" />
+                        <img src={react} alt="react" />
+                        <img src= {nodejs} alt="nodejs" />
+                        <img src= {git}  alt="git" />
+                        <img src= {mongo} alt="mongodb" />
+                        <img src= {psql} alt="postgresql" />
                     </div>
                 </div>
             </div>

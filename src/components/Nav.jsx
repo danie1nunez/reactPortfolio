@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import '../index.css'
+import logo from '../assets/logo.png'
 
 
 export default function Nav() {
     return (
         <nav className="p-4 font-mono flex justify-between">
             <div className="container mx-auto flex justify-between items-center">
-                <img className='logo' src='./src/assets/logo.png' alt='logo'/>
+                <img className='logo' src= {logo} alt='logo'/>
                 <div className="md:flex space-x-10">
                    <Link to ="/" className="text-stone-800 hover:text-orange-500 ">About Me</Link>
                    <Link to = "/portfolio" className="text-stone-800 hover:text-orange-500">Portfolio</Link>
