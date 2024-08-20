@@ -6,12 +6,13 @@ import nodejs from"../assets/nodejs.svg"
 import git from "../assets/git.svg"
 import mongo from "../assets/mongodb.svg" 
 import psql from "../assets/postgresql.svg"
+import portrait from "../assets/memoji.png"
 
 export default function AboutMe() {
     return (
         <div className="flex flex-row">
             <div className="font-mono flex justify-center align-bottom">
-                <img className='size-72' src="./src/assets/memoji.png" alt="memoji portrait" />
+                <img className='size-72' src={portrait} alt="memoji portrait" />
                 <div className="w-2/3 place-self-center">
                     <h1 className="mb-3">About Me:</h1>
                     <p className="text-s">
