@@ -5,39 +5,39 @@ import project from '../assets/project.png'
 export default function Portfolio() {
     const projects = [
        {
-        name: 'Ecommerce',
+        name: 'Horiseon Refactor',
         description: '',
         image: project,
         repoLink: '',
-        deployed: '',
+        deployed: 'https://danie1nunez.github.io/Horiseon-Refactor/',
        },
        {
-        name: 'Employee Tracker',
+        name: 'Payroll Tracker',
         description: '',
         image: project,
         repoLink: '',
-        deployed: '',
+        deployed: 'https://danie1nunez.github.io/Payroll-tracker/',
        },
        {
         name: 'Text Editor',
         description: '',
         image: project,
         repoLink: '',
-        deployed: '',
+        deployed: 'https://github.com/danie1nunez',
        },
        {
         name: 'Tech Blog',
         description: '',
         image: project,
         repoLink: '',
-        deployed: '',
+        deployed: 'https://github.com/danie1nunez',
        },
        {
         name: 'Amazon',
         description: '',
         image: project,
         repoLink: '',
-        deployed: '',
+        deployed: 'https://github.com/danie1nunez',
        },
     ]
     return (
