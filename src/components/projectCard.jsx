@@ -7,7 +7,7 @@ export default function ProjectCard({name, description, image, repoLink, deploye
                       <img src= {image} alt= 'image'/>
                   </div>
                   <div className="">
-                      <a className="">{name}</a>
+                      <a href={deployed} className="">{name}</a>
                   </div>
                </div>
            </div>

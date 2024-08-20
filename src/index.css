@@ -4,6 +4,7 @@
 
 body{
     background-color: rgb(181, 181, 181);
+    font-family: monospace;
 }
 
 .card{
@@ -12,4 +13,9 @@ body{
 
 .logo {
     width: 15vw;
+}
+
+.pdf{
+    width: auto;
+    height:50dvh;
 }
