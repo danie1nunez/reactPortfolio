@@ -2,6 +2,7 @@ import '../index.css';
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 import stack from "../assets/stack.png"
+
 export default function Contact() {
     return (
         <div className='min-h-screen flex justify-center'>
